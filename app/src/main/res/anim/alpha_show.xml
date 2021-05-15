@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- alpha：調整透明度（漸變透明度動畫效果） -->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="1000"
+        />
+
+    <!-- android:fromAlpha - 動畫開始的透明度，從 0.0 - 1.0 ，0.0 表示全透明，1.0 表示完全不透明 -->
+    <!-- android:toAlpha - 動畫結束時的透明度，從 0.0 - 1.0 ，0.0 表示全透明，1.0 表示完全不透明 -->
+    <!-- android:duration - 動畫的持續時間。 -->
+</set>

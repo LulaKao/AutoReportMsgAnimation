@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- alpha：調整透明度（漸變透明度動畫效果） -->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="2000"
+        android:startOffset="5000"
+        android:repeatCount="1"
+        android:repeatMode="reverse"
+        />
+
+    <!-- android:fromAlpha - 動畫開始的透明度，從 0.0 - 1.0 ，0.0 表示全透明，1.0 表示完全不透明 -->
+    <!-- android:toAlpha - 動畫結束時的透明度，從 0.0 - 1.0 ，0.0 表示全透明，1.0 表示完全不透明 -->
+    <!-- android:repeatMode - 重複類型，即回放時的動作。有 reverse 和 restart 兩個值。
+         reverse　表示倒序回放，restart　表示重新放一遍，必須與　repeatCount　一起使用才能看到效果。 -->
+    <!-- android:startOffset - 動畫開始前的延遲秒數。 -->
+</set>
